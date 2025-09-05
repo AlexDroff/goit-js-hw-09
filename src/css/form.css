@@ -23,6 +23,9 @@ body {
   text-decoration: underline;
 }
 .feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background: #fff;
   padding: 20px;
   border-radius: 8px;
