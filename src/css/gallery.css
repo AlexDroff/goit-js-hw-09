@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
