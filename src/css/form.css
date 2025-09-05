@@ -5,7 +5,7 @@ body {
   padding: 40px;
 }
 .container {
-  max-width: 400px;
+  max-width: 408px;
   margin: 0 auto;
 }
 .main-title {
@@ -37,6 +37,7 @@ body {
 .feedback-form input,
 .feedback-form textarea {
   width: 100%;
+  max-width: 360px;
   padding: 10px;
   margin-top: 4px;
   margin-bottom: 16px;
@@ -58,6 +59,8 @@ body {
 .feedback-form button {
   display: inline-block;
   padding: 10px 18px;
+  width: 95px;
+  height: 40px;
   background: #4c8dff;
   color: #fff;
   font-size: 14px;
@@ -66,7 +69,6 @@ body {
   cursor: pointer;
   transition: background 0.2s;
 }
-
 .feedback-form button:hover {
   background: #356de6;
 }
